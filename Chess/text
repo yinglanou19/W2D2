@@ -1,0 +1,9 @@
+ load "cursor.rb"
+ load "display.rb"
+ load "board.rb"
+ load "piece.rb"
+
+ b = Board.new
+  d = Display.new b
+d.test_board
+new = Bishop.new("white",b,[4,4])
